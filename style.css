@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+
+    .header {
+        width: 100%;
+        height: 100px;
+        background-color: brown;
+    }
+
+    .left {
+        height: 72.5dvh;
+        width: 360px;
+        background-color: rgb(255, 132, 0);
+    }
+
+    .main {
+        height: 72.5dvh;
+        width: 800px;
+        background-color: white;
+    }
+
+    .right {
+        width: 360px;
+         height: 72.5dvh;
+        margin-right: -15px;
+        background-color: yellowgreen;
+    }
+
+    .footer {
+        width: 100%;
+        height: 100px;
+        background-color: blue;
+    }
+}
